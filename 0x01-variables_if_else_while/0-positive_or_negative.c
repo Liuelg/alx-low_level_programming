@@ -24,15 +24,15 @@ int main(void)
 
 				n = rand() - RAND_MAX / 2;
 
-					if(n > 0){
-					         printf("%c is positive\n", n);
-					}
-					else if ( n < 0){
-						printf("%c is negative\n", n);
-					}
-					else if (n == 0 ){
-						printf("%c is zero\n", n);
-					}
+					if(n > 0)
+					         printf("%d is positive\n", n);
+					
+					else if ( n < 0)
+						printf("%d is negative\n", n);
+					
+					else (n == 0 )
+						printf("%d is zero\n", n);
+					
 
 					return (0);
 
