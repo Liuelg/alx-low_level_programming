@@ -4,6 +4,7 @@
 /*
  * main - returns alphabets both lower and upper cases
  * Return: Always 0 (Success)
+ *Description: 'the program's description'
  */
 int main(void)
 {
