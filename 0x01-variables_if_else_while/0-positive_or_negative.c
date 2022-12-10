@@ -2,14 +2,17 @@
 #include <stdio.h>
 #include <time.h>
 
-/* more headers goes there */
-
-/* betty style doc for function main goes there */
-/**
- * main - Entry point
- * 	
- * Return: Always 0 (success)
- */
+/**                                                                 
+ *
+ *  * main - main block                                                
+ *
+ *   * Description: Get a random number and print the number            
+ *
+ *    * and if it is positive, negative, or zero                         
+ *
+ *     * Return: 0                                                        
+ *
+ *      */                                                                 
 
 int main(void)
 
