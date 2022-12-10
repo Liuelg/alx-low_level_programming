@@ -2,7 +2,11 @@
 
 #include <time.h>
 
-/* more headers goes there */
+/* more headers goes there
+ *main - Entry point
+
+ *Return: Always 0 (success)
+  */
 
 
 
@@ -21,13 +25,13 @@ int main(void)
 				n = rand() - RAND_MAX / 2;
 
 					if(n > 0){
-					         printf("%c", "is postive");
+					         printf("%c is positive\n", n);
 					}
 					else if ( n < 0){
-						printf("%c", "is negative");
+						printf("%c is negative\n", n);
 					}
-					else if (n = 0 ){
-						printf("%c", "is zero");
+					else if (n == 0 ){
+						printf("%c is zero\n", n);
 					}
 
 					return (0);
