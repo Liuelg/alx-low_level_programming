@@ -4,10 +4,10 @@
 /**
  * main - main block
  * Description: prints all single digit number of base 10
- * starting from 0, followed by a new line
+ * starting from 0,followed by a new line
  * Return: 0
  */
-int min(void)
+int main(void)
 {
 	char c = 'z';
 
